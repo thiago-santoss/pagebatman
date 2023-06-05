@@ -54,7 +54,11 @@ textarea {
     color: #fff;
     width: 20%;
 }
-
+footer img {
+    width:100px;
+    height: auto;
+    margin-top: 200px;
+}
 footer {
     height: 300px;
     margin-top: 50px;
@@ -69,4 +73,12 @@ span {
     font-family:'Kdam Thmor Pro', sans-serif ;
     font-size: 14px;
     
+}
+
+@media(max-width: 768px) {
+
+    textarea {
+        width: 40%;
+    }
+
 }
